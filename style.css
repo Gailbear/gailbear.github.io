@@ -2,3 +2,17 @@
   background-color: indigo;
   color: white;
 }
+
+.jumbotron a {
+  color: white;
+}
+
+.jumbotron a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.skillz-logo {
+  max-height: 20px;
+  vertical-align: baseline;
+}
