@@ -12,6 +12,10 @@
   text-decoration: none;
 }
 
+.jumbotron h1 small {
+  color: lightgray;
+}
+
 .skillz-logo {
   max-height: 20px;
   vertical-align: baseline;
