@@ -472,3 +472,28 @@ body {
 body {
   word-spacing: 0.02em;
 }
+
+/* Skills Section - Badge Layout */
+.skills-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skills-badges img {
+  height: 32px;
+}
+
+/* Responsive adjustments for skills */
+@media (max-width: 768px) {
+  .skills-badges {
+    gap: 0.5rem;
+  }
+
+  .skills-badges img {
+    height: 28px;
+  }
+}
